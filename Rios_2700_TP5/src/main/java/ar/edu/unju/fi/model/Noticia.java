@@ -37,6 +37,10 @@ public class Noticia {
 	public void setResumen(String resumen) {
 		this.resumen = resumen;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "Noticia [fecha=" + fecha + ", titulo=" + titulo + ", resumen=" + resumen + "]";
+	}
 	
 }

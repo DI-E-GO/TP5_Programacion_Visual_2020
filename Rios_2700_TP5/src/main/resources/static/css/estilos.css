@@ -1,0 +1,162 @@
+*{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor{
+    width: 1200px;
+    height: 1000px;
+    background: #C0C0C0;
+    margin: 1em auto;
+    padding: 15px;
+}
+header {
+    height: 15%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-image: url("../img/fondoFutbol.jpg");
+}
+header h1{
+    color: white;
+}
+
+li{
+    list-style: none;
+ }
+nav {
+    text-align: left;
+    height: 6%;
+    background: #00A2FF;
+ }
+nav ul {
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+ }
+nav li {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    border-color: #488DB4;
+    background-color: #488DB4;
+ }
+nav li a{
+    text-decoration: none;
+    color: #ffff;
+}
+nav li a:hover{
+    color: yellow;
+ }
+.contenido{
+    height: 73%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+section {
+    height: 96.5%;
+    width: 75%;
+    background: #DFF3FF;
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding: 10px;
+}
+.noticia{
+    padding-bottom: 5px;
+    padding-left: 8px;
+    background: #008EDF;
+    font-size: 23px;
+    color: #005281;
+}
+.titulos{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    background: #008EDF;
+    font-size: 23px;
+    color: #005281;
+}
+.card{
+    margin-top: 25px;
+    margin-right: 10px;
+    display: inline-block;
+    height: 45%;
+    width: 30.79%;
+    border-radius: 3px;
+    border: #167AB2 5px solid;
+    background: #ffff;
+}
+p{
+    padding: 10px;
+}
+.imagen{
+    padding: 10px;
+    height: auto;
+    width: 255px;
+}
+aside {
+    float: right;
+    width: 20.4%;
+    background: #A2DDFF;
+    height: 96.5%;
+    padding: 10px;
+}
+.baner{
+    height: auto;
+    width: 227px;
+    padding: 10px;
+}
+footer {
+    position: relative;
+    height: 3%; 
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    padding-block-start: 10px;
+}
+footer a{
+    font-weight: bold;
+    color: #ffff;
+    text-decoration: none;
+}
+table{
+    width: 700px;
+}
+table, th, td {
+   padding: 20px;
+   text-align: left;
+}
+th{
+    border-bottom: 2px solid blue;
+}
+td{
+    padding-right: 40px;
+    border-bottom: 1px solid black;
+}
+
+.logoEquipos{
+    height: 28px;
+    width: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+span{
+    padding: 10px;
+    font-weight: bold;
+}
+.cardEquipos{
+    float: right;
+    padding-bottom: 25px;
+    justify-content: center;
+}
+.escudoEquipos{
+    height: 220px;
+    width: 180px;
+    float: left;
+    padding-right: 20px;
+}

@@ -55,6 +55,12 @@ public class Estadio {
 	public void setDireccion(String dirección) {
 		this.direccion = dirección;
 	}
+
+	@Override
+	public String toString() {
+		return "Estadio [nombre=" + nombre + ", fechaFundacion=" + fechaFundacion + ", ciudad=" + ciudad
+				+ ", capacidad=" + capacidad + ", direccion=" + direccion + "]";
+	}
 	
 	
 

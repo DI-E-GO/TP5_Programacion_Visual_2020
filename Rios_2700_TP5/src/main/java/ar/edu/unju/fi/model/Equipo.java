@@ -24,4 +24,12 @@ public class Equipo {
 	public void setEstadio(String estadio) {
 		this.estadio = estadio;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Equipo [nombre=" + nombre + ", estadio=" + estadio + "]";
+	}
+	
+	
 }

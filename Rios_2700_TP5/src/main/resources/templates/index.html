@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Trabajo Practico 4</title>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+	<div class="contenedor">
+		<!-- Cabecera -->
+		<header class="encabezado">
+			<h1>Liga de Futbol Profesional</h1>
+		</header>
+		<!-- Menú -->
+		<nav>
+		    <ul>
+		        <li><a href="index.html">Home</a></li>
+		        <li><a href="fixture.html">Fixture y resultados</a></li>
+		        <li><a href="equipos.html">Equipos</a></li>
+		    </ul>
+		    <div id="welcome">
+		    	 <h4 th:text = " 'Bienvenido!' + ${usuario}"></h4>
+		    </div>
+		</nav>
+		<!-- Contenido -->
+		<div class="contenido">
+			<section class="seccion">
+			<div class="noticia">
+				<h3>Noticias</h3>
+			</div>
+			<div class="card">
+				<img class="imagen" src="img/fulbol2.png" alt="">
+				<p>12/03/20</p>
+				<p>Nueva noticia de los partidos suspendidos por la cuarentena.</p>
+			</div>
+			<div class="card">
+				<img class="imagen" src="img/fulbol1.png" alt="">
+				<p>13/03/20</p>
+				<p>Repetición de la transmición en vivo de la final de la copa anual de profesiona </p>
+			</div>
+			<div class="card">
+				<img class="imagen" src="img/fulbol3.png" alt="">
+				<p>20/03/20</p>
+				<p>Reprogramación de sorteos para las próximas fechas.</p>
+			</div>
+			</section>
+			<!-- Contenido relacionado-->
+			<aside>
+				<div class="titulos">
+					<h4>Auspiciantes</h4>
+				</div>
+				
+			</aside>
+		</div>
+		<!-- Pie de pagina -->
+		<footer>
+			<a href="#">Avda. Pedro Ortiz de Zarate N° 455 - Tel 388-4789555</a> - 
+			<a href="#">Facebook</a> - <a href="#">Twitter</a> - <a href="#">Youtube</a>
+		</footer>
+	</div>
+		
+</body>
+</html>
